@@ -11,12 +11,12 @@ public class Main extends Application {
     public void start(Stage stage) throws Exception {
 
         FXMLLoader loader = new FXMLLoader(
-                getClass().getResource("/fxml/MainView.fxml")
+                getClass().getResource("/fxml/LoginView.fxml")
         );
 
         Scene scene = new Scene(loader.load(), 800, 500);
 
-        stage.setTitle("Library Management System");
+        stage.setTitle("Library Management System - Login");
         stage.setScene(scene);
         stage.show();
     }
